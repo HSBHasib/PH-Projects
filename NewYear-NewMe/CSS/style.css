@@ -34,7 +34,6 @@
 
 /* Header | Hero-Container */
 header {
-    /* background: url("../assets/images/banner/banner1.png");  | For Multiple Image Uses */
     background-image: url("../assets/images/banner/banner1.png");
     background-size: cover;
 }
@@ -150,7 +149,92 @@ img {
     font-size: 25px;
     color: #737272;
     font-weight: 500;
-
 }
 
 
+
+/* Contact Section */
+.contact-container {
+    background-image: url("../assets/images/gradient2.png");
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.contect-content {
+    padding: 59px 0 59px 64px;
+}
+
+.contect-content h2 {
+    max-width: 459px;
+    font-size: 40px;
+    color: #FFF;
+    margin-bottom: 24px;
+}
+
+.contect-content .btn-white, .footer-container .footer-subs .btn-white {
+    background-color: #FFF;
+    color: #F15B22;
+    padding: 20px 36px;
+}
+
+
+
+/* Footer Sectoin | Fotter-Contant*/
+footer {
+    color: white;
+    background-color: black;
+}
+
+.footer-container {
+    /* width: 71%;
+    max-width: 1140px; */
+    
+    margin: 130px auto 0;
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container .footer-contant {
+    max-width: 485px;
+}
+
+.footer-container .footer-contant h2 {
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.footer-container .footer-contant #footer-p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.footer-container .footer-contant p {
+    font-size: 16px;
+    margin-bottom: 16px;
+    margin-bottom: 32px;
+}
+
+.footer-container .footer-contant .footer-icon img {
+    max-width: 47px;
+    margin-right: 17px;
+}
+
+/* Fotter Subs */
+.footer-container .footer-subs h3{
+    font-size: 25px;
+    margin-bottom: 31px;
+}
+
+.footer-container .footer-subs input[type="email"] {
+    width: 325px;
+    font-size: 18px;
+    color: #F3F3F3;
+    background-color: transparent;
+    border: 1px solid #F3F3F3;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 16px;
+}
