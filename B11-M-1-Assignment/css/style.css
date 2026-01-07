@@ -24,9 +24,15 @@
     color: #FFF;
     font-size: 14px;
     font-weight: 600;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.374);
 }
 
-main, #vision, #opinion, #recent-news {
+main, 
+#vision, 
+#opinion, 
+#recent-news, 
+#donate,
+footer {
     padding-top: 50px;
     background-color: #F5F5F5;
 }
@@ -317,5 +323,31 @@ img  {
     padding: 15px 28px;
 }
 
+
+
+/* Donate Section */
+#donate .intro-text {
+    text-align: center;
+}
+
+.donate-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    gap: 25px;
+    
+}
+
+.donate-box {
+    background-color: #FFF;
+    padding: 36px 40px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.301);
+}
+
+.d-box2 {
+    background-color: #C6E4D6;
+}
 
 
