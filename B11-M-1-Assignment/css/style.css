@@ -26,7 +26,7 @@
     font-weight: 600;
 }
 
-main, #vision, #opinion {
+main, #vision, #opinion, #recent-news {
     padding-top: 50px;
     background-color: #F5F5F5;
 }
@@ -161,7 +161,7 @@ header {
     background-color: #F7EBCF;
 }
 
-#vision .intro-text p {
+#vision .intro-text p , #recent-news .intro-text p  {
     font-size: 14px;
     color: #0E0E0E80;
     margin-bottom: 25px;
@@ -236,6 +236,7 @@ header {
     border: 1.5px solid rgba(128, 128, 128, 0.313);
 }
 
+
 .opinion-box p {
     color: #0E0E0E;
     font-size: 15px;
@@ -261,8 +262,60 @@ header {
 }
 
 
-/* .border {
-    border: 1px solid rgba(128, 128, 128, 0.495);  
-} */
+
+/* Recent News Section */
+.recent-container {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+    background-color: #FFF;
+    margin-top: 20px;
+    border-radius: 18px;
+}
+
+
+.recent-container .recent-img img {
+    max-width: 360px;
+    border-radius: 18px;
+}
+
+.recent-container .recent-content {
+    max-width: 650px;
+}
+
+.recent-container 
+.recent-content h2 {
+    font-size: 28px;
+    color: #3E3E3E;
+    margin-bottom: 8px;
+}
+
+.recent-container 
+.recent-content 
+.recent-content-img 
+img  {
+    max-width: 130px;
+    margin-bottom: 8px;
+}
+
+.recent-content .recent-content-T-D span {
+    font-size: 16px;
+    color: #3E3E3E;
+}
+
+.recent-container 
+.recent-content p {
+    margin: 8px 0 25px 0;
+}
+
+.recent-container 
+.recent-content  
+.recent-content-btn 
+.btn
+{
+    padding: 15px 28px;
+}
+
 
 
