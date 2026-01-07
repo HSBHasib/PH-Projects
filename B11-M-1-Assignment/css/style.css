@@ -42,6 +42,9 @@ footer {
     padding-bottom: 25px;
 }
 
+.intro-text-center {
+    text-align: center;
+}
 
 
 /* Main Style */
@@ -326,10 +329,6 @@ img  {
 
 
 /* Donate Section */
-#donate .intro-text {
-    text-align: center;
-}
-
 .donate-box-container {
     display: flex;
     justify-content: center;
@@ -350,4 +349,85 @@ img  {
     background-color: #C6E4D6;
 }
 
+
+
+/* Footer Section */
+footer {
+    padding: ;
+    
+}
+
+.footer-container {
+    text-align: center;
+    align-items: center;
+    background-color: #C6E4D6;
+    padding: 80px 265px;
+}
+
+footer .intro-text-center p {
+    max-width: 520px;
+    margin: 0 auto;
+    color: #0E0E0E70;
+    font-size: 14px;
+}
+
+.footer-container p {
+    color: #0E0E0E70;
+    font-size: 14px;
+}
+
+.footer-form-container .footer-inputs {
+    padding: 24px 0;
+}
+
+.footer-container 
+.footer-form-container
+.footer-inputs
+input[type=email] {
+    padding: 15px 30px;
+    width: 500px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.footer-container 
+.footer-form-container
+.footer-inputs
+.btn {
+    border-radius: 0 5px 5px 0;
+    padding: 15px 25px;
+}
+
+.footer-inputs {
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer-icon */
+.footer-icon-container {
+    text-align: center;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.footer-text-content h4 {
+    font-size: 23px;
+    padding: 40px 0 25px 0;
+}
+
+#footer-icon-under-text-border {
+    max-width: 70%;
+    margin: 0 auto;
+    border: 0.2px solid rgba(128, 128, 128, 0.386);
+}
+
+.footer-icon-container .footer-icon {
+    font-size: 23px;
+    padding: 25px 0 40px 0;
+}
+
+.footer-icon-container .footer-icon img {
+    max-width: 24px;
+    margin-right: 15px;
+}
 
